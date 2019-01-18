@@ -81,7 +81,7 @@ function binarySearch(list, value){
 }
 
 let numbers = [];
-for(let i = 0; i < 1000000000; i++){
+for(let i = 0; i < 100000; i++){
     numbers.push(i);
 }
 const index = binarySearch(numbers,1);
