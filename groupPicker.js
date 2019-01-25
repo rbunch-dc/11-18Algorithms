@@ -1,5 +1,5 @@
-let students = ['Brandon','Khanh','Connor','Cody','Christopher','Sean','Katie','Jason','Michael','Gbinga','Greg','Bryan','Matt','Zac','Rob','Ron'];
-let groupSize = 4
+let students = ['JR','Jim','Brandon','Khanh','Connor','Cody','Christopher','Sean','Katie','Jason','Michael','Gbinga','Greg','Bryan','Matt','Zac','Rob','Ron','Noelle'];
+let groupSize = 3;
 let newStudents = [];
 for(let i = 0; i < 4; i++){
     newStudents[i] = [];
