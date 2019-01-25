@@ -13,7 +13,10 @@ function convertPhone(phonestr){
            console.log("Invalid Number")
        }else if (correctPhone.length >= 10){
            // console.log(correctPhone)
-           let tenDigit = correctPhone.slice(0,10);
+           let elevenDigit = correctPhone.slice(0,11);
+           if(elevenDigit[0] === 1){
+            elevenDigit.splice(0,1)
+           }
            tenDigit.splice(3,0,'-')
            tenDigit.splice(7,0,'-');
            let completeNumber = tenDigit.join("");
